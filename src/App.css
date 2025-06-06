@@ -1,0 +1,21 @@
+/* Les styles principaux sont maintenant dans index.css */
+/* Ce fichier est conservé pour des styles spécifiques à l'application */
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+  padding: 2rem 0;
+}
+
+footer {
+  margin-top: auto;
+  padding: 1.5rem 0;
+  background-color: var(--card-bg);
+  text-align: center;
+  box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+}
